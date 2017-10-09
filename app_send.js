@@ -19,6 +19,8 @@ app.listen(3000, function () {  // path je localhost ili IP 127.0.0.1
 // req.body() npr je request body tj traženje body dijela html stranice,
 // koji će onda poslati npr u MongoDB bazu u JSON formatu
 
+
+// GIT povlačenje kopije repozitorija na drugi PC: git clone i url repo adrese
 // GIT Upload popravljenih i novih fajlova
 // git status, git add ., git commit -m "Now version" , git push (origin master)
 // Za povlačenje fajlova: git pull origin master
