@@ -9,7 +9,7 @@ app.get('/', function (req, res) { // / nije direktorij nego route ime gdje je f
 	res.send('Prva poruka sa node servera');  // u browser unesi localhost:3000
 });
 
-app.listen(3000, function () {  // path je localhost
+app.listen(3000, function () {  // path je localhost IP 127.0.0.1
 	console.log('Node server uključen');
 });
 
