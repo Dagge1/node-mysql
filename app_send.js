@@ -9,7 +9,7 @@ app.get('/', function (req, res) { // / nije direktorij nego route ime gdje je f
 	res.send('Prva poruka sa node servera');  // u browser unesi localhost:3000
 });
 
-app.listen(3000, function () {  // path je localhost IP 127.0.0.1
+app.listen(3000, function () {  // path je localhost ili IP 127.0.0.1
 	console.log('Node server uključen');
 });
 
@@ -18,3 +18,6 @@ app.listen(3000, function () {  // path je localhost IP 127.0.0.1
 // konkretnog odgovora da li to bio tekst, JSON, html stranica ili image
 // req.body() npr je request body tj traženje body dijela html stranice,
 // koji će onda poslati npr u MongoDB bazu u JSON formatu
+
+// GIT Upload popravljenih i novih fajlova
+// git status, git add ., git commit -m "Now version" , git push
