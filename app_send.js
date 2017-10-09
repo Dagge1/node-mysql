@@ -21,3 +21,4 @@ app.listen(3000, function () {  // path je localhost ili IP 127.0.0.1
 
 // GIT Upload popravljenih i novih fajlova
 // git status, git add ., git commit -m "Now version" , git push (origin master)
+// Za povlačenje fajlova: git pull origin master
