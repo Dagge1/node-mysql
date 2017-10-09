@@ -20,4 +20,4 @@ app.listen(3000, function () {  // path je localhost ili IP 127.0.0.1
 // koji će onda poslati npr u MongoDB bazu u JSON formatu
 
 // GIT Upload popravljenih i novih fajlova
-// git status, git add ., git commit -m "Now version" , git push
+// git status, git add ., git commit -m "Now version" , git push (origin master)
